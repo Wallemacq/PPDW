@@ -11,5 +11,3 @@ Semaine du 2/2/22 au 09/02/22
 Mise en place de l'HTML/CSS via bootstrap.
 
 03/02/22 Mise en place de la structure MVC
-
-Petit test
