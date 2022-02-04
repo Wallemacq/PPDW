@@ -4,7 +4,7 @@
 <?php echo("Ceci est du texte"); ?>
 
 <?php
-    // $title = "template";
+    $title = "Accueil";
     $contentPhp= ob_get_clean();
     include("../template.php");
 
