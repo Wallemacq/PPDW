@@ -29,11 +29,21 @@
               <li class="nav-item"><a href="#" class="nav-link">Personnel</a></li>
             </ul>
           </header>
-        </div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <div id="content">
-          <?php echo $contentPhp; ?>
-      </div>
+          <section id="content" class="py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <?php
+                    if(!empty($errorMessage)){
+                        include('error.php');
+                    }
+                    ?>
+                    <div>
+                        <?php echo $content; ?>
+                        <p>Aujourd'hui nous sommes le <?php echo date('d/m/Y h:i:s'); ?>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <p class="col-md-4 mb-0 text-muted">&copy; 2022 WallCompany, Inc</p>
