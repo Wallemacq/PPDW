@@ -19,5 +19,5 @@
 <?php
 $title="Les utilisateurs";
 $content = ob_get_clean();
-include '../template.php';
+include 'views\template\template.php';
 ?>

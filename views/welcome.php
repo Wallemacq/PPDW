@@ -8,6 +8,6 @@
     <a href="<?=ROOT_PATH?>users" class="btn btn-outline-secondary my-2 my-sm-0">Lister les utilisateurs</a>
 <?php endif?>
 <?php
-$title = 'Exercice 9';
+$title = 'YC';
 $content = ob_get_clean();
-include('../template.php');
+include('views\template\template.php');

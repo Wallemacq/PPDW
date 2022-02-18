@@ -17,3 +17,5 @@ Mise en place de l'HTML/CSS via bootstrap.
 09/02/2022 Mise en place de la structure MVC et commencement de l'analyse du projet.
 
 10/02/2022 Suite de l'analyse du projet.
+
+16/02/2022 Remise en place de la structure MVC

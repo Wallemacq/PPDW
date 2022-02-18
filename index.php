@@ -22,3 +22,4 @@ else {
     exit();
 }
 ?>
+<!-- ceci est le routeur -->

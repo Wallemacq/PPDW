@@ -19,5 +19,5 @@ ob_start()
 <?php
 $title = "Créer un utilisateur";
 $content = ob_get_clean();
-include '../template.php';
+include 'views\template\template.php';
 ?>

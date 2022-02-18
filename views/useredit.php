@@ -23,5 +23,5 @@ ob_start()
 <?php
 $title = "Editer";
 $content = ob_get_clean();
-include '../template.php';
+include 'views\template\template.php';
 ?>

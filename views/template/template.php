@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- <link href="/css/style.css" rel="stylesheet"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <link href="/css/style.css" rel="stylesheet">
     <title>Yankee Candle</title>
+    <title><?php echo $title; ?></title>
   </head>
   <body>
     <main>
@@ -20,10 +21,10 @@
               <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
               <span class="fs-4">YankeeCandle</span>
             </a>
-      
+            
             <ul class="nav nav-pills">
-              <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Accueil</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">Produit</a></li>
+              <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Accueil</a></li>
+              <li class="nav-item"><a href="Produits" class="nav-link">Produits</a></li>
               <li class="nav-item"><a href="#" class="nav-link">Prix</a></li>
               <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
               <li class="nav-item"><a href="#" class="nav-link">Personnel</a></li>
@@ -39,7 +40,7 @@
                     ?>
                     <div>
                         <?php echo $content; ?>
-                        <p>Aujourd'hui nous sommes le <?php echo date('d/m/Y h:i:s'); ?>.</p>
+                        <!-- <p>Aujourd'hui nous sommes le <?php echo date('d/m/Y h:i:s'); ?>.</p> -->
                     </div>
                 </div>
             </div>

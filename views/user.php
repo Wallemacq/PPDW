@@ -6,5 +6,5 @@ Login: <?= $user['login']?>
 <?php
 $title = $user['login'];
 $content = ob_get_clean();
-include '../template.php';
+include 'views\template\template.php';
 ?>
