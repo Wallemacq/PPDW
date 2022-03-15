@@ -23,9 +23,9 @@
             </a>
             
             <ul class="nav nav-pills">
-              <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Accueil</a></li>
+              <li class="nav-item"><a href="/" class="nav-link" aria-current="page">Accueil</a></li>
               <li class="nav-item"><a href="Produits" class="nav-link">Produits</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">Prix</a></li>
+              <!-- <li class="nav-item"><a href="#" class="nav-link">Prix</a></li> -->
               <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
               <li class="nav-item"><a href="#" class="nav-link">Personnel</a></li>
             </ul>
@@ -54,7 +54,7 @@
         </a>
     
         <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Accueil</a></li>
+          <li class="nav-item"><a href="Produits.php" class="nav-link px-2 text-muted">Accueil</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Produit</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Prix</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
