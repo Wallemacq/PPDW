@@ -1,5 +1,20 @@
+
+
 <?php
 $title = "Voici les différents produits";
+echo $title;
+?>
+<div class="card" style="width: 18rem;">
+
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="\images\bougiecleancotton.png" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+  </div>
+</div>
+
+<?php
 $content = ob_get_clean();
 include 'views\template\template.php';
 ?>

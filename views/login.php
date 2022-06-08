@@ -8,7 +8,7 @@
         <label for="idpassword">Password</label>
         <input type="password" class="form-control" id="idpassword" name="password">
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary">Confirmer</button>
 </form>
 <?php
 $title = 'Se connecter';

@@ -1,7 +1,7 @@
 <?php
 function getDB() {
     //PDO: PHP Data Objects
-    $bdd = new PDO('mysql:host=localhost;dbname=cours;charset=utf8', 'root', 'password', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+    $bdd = new PDO("mysql:host=localhost;dbname=yankeecandle;charset=utf8", 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
     return $bdd;
 }
 

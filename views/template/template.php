@@ -14,20 +14,26 @@
   <body>
     <main>
         <h1 class="visually-hidden">Headers examples</h1>
-      
+        
         <div class="container">
           <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
               <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
               <span class="fs-4">YankeeCandle</span>
             </a>
-            
+            <div class="search">
+<form action = "verif-form.php" method = "get">
+<input type = "search" name = "terme">
+<input type = "submit" name = "s" value = "Rechercher">
+</form>
+</div>
+
             <ul class="nav nav-pills">
               <li class="nav-item"><a href="/" class="nav-link" aria-current="page">Accueil</a></li>
               <li class="nav-item"><a href="Produits" class="nav-link">Produits</a></li>
               <!-- <li class="nav-item"><a href="#" class="nav-link">Prix</a></li> -->
-              <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">Personnel</a></li>
+              <!-- <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li> -->
+              <!-- <li class="nav-item"><a href="#" class="nav-link">Personnel</a></li> -->
             </ul>
           </header>
           <section id="content" class="py-5">
@@ -40,7 +46,7 @@
                     ?>
                     <div>
                         <?php echo $content; ?>
-                        <!-- <p>Aujourd'hui nous sommes le <?php echo date('d/m/Y h:i:s'); ?>.</p> -->
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -55,7 +61,7 @@
     
         <ul class="nav col-md-4 justify-content-end">
           <li class="nav-item"><a href="Produits.php" class="nav-link px-2 text-muted">Accueil</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Produit</a></li>
+          <li class="nav-item"><a href="produit.php" class="nav-link px-2 text-muted">Produit</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Prix</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Personnel</a></li>
