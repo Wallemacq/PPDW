@@ -14,7 +14,7 @@ ob_start()
         <label for="idconfirmpassword">Confirm password</label>
         <input type="password" class="form-control" id="idconfirmpassword" name="confirm_password" required>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary">Confirmer</button>
 </form>
 <?php
 $title = "Créer un utilisateur";

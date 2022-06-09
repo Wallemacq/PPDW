@@ -60,12 +60,12 @@
         </a>
     
         <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item"><a href="Produits.php" class="nav-link px-2 text-muted">Accueil</a></li>
-          <li class="nav-item"><a href="produit.php" class="nav-link px-2 text-muted">Produit</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Prix</a></li>
+          <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Accueil</a></li>
+          <li class="nav-item"><a href="produits.php" class="nav-link px-2 text-muted">Produits</a></li>
+          <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Prix</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Personnel</a></li>
-        </ul>
+        </ul> -->
       </footer>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->

@@ -13,4 +13,5 @@
 <?php
 $title = 'Se connecter';
 $content = ob_get_clean();
-include('views\template\template.php');
+include 'views\template\template.php';
+?>

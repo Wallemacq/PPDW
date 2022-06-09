@@ -1,5 +1,5 @@
 <?php
-include 'models/users.php';
+include 'models/user.php';
 
 if(!empty($_SESSION['login'])){
     header("Location: ".ROOT_PATH);
